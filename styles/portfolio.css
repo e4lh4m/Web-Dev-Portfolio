@@ -10,6 +10,12 @@ body{
 
 }
 
+/* download button gap */
+
+#downloadbtn{
+    margin-right: 30px;
+}
+
 .button-primary{
     border-radius: 5px;
     color: white;
@@ -244,10 +250,11 @@ footer{
     padding: 130px 230px;
     display: flex;
     background: #FFF8F3;
+    text-align: center;
 }
 
-footer.img{
-    margin-left: 30px;
+.social-media a{
+    margin-right: 30px;
 }
 
 footer.p{
@@ -268,17 +275,18 @@ line-height: 28px;
 }
 
 .message{
-    color:#181818);
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
 }
 
-.contact .in10, textarea{
+.contact input[type="text"], input[type="email"],textarea{
     display: block;
     margin-bottom: 25px;
     padding: 18px 30px;
-border: none;
+    border: none;
     border-radius: 5px;
     background:#FFF;
 
@@ -286,5 +294,5 @@ border: none;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px; 
-width: 100%;
+    width: 100%;
 }
