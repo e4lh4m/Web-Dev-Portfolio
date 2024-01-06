@@ -113,12 +113,14 @@ main{
     margin: 0px auto;
 
 }
-
+.section-title{
+    margin-top: 130px;
+}
 
 /* About section styles */
 
 .about{
-    padding: 130px 0px;
+  padding: 130px ;
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px;
@@ -138,6 +140,36 @@ main{
 
 }
 
+.about-description{
+    text-align: center;
+
+}
+/* Skill Styles */
+
+#what-i-do-description{
+    padding: 30px 115px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    padding: 30px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+}
+
+
 
 .section-title{
 
@@ -153,4 +185,39 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px; 
+}
+
+/* A summary of My Resume */
+.column-title{
+    color:#474747;
+font-size: 30px;
+font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+  
+}
+.resume-item{
+    padding-right: 70px;
+}
+
+.resume-title{
+    color:#474747;
+font-size: 25px;
+font-weight: 700;
+}
+
+
+.resume-institute{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
 }
