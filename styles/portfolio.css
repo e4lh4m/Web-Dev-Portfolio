@@ -221,3 +221,70 @@ font-size: 16px;
 font-weight: 400;
 line-height: 28px;
 }
+
+/* Add space between horizontal lines 
+hr {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+*/
+
+#dn20{
+    margin: 0 auto;
+}
+
+.download-cv{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 130px;
+    gap: 130px;
+    padding: 130px 230px;
+    display: flex;
+    background: #FFF8F3;
+}
+
+footer.img{
+    margin-left: 30px;
+}
+
+footer.p{
+    color:#474747;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 28px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.social-media{
+    margin-top: 30px;
+}
+
+.message{
+    color:#181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+
+.contact .in10, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+border: none;
+    border-radius: 5px;
+    background:#FFF;
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+width: 100%;
+}
