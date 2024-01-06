@@ -1,0 +1,107 @@
+/* Text Styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* primary color orange tai ekta class kore nibo. */
+.text-primary{
+    color: #FD6E0A;
+
+}
+
+.button-primary{
+    border-radius: 5px;
+    color: white;
+    background: #FD6E0A;
+    border: 0;
+    padding: 16px 35px;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+/* nav related styles. display: flex; = inline hoye jay */
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px 200px;
+}
+
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+
+
+}
+
+nav > ul{
+display: flex;
+align-items: center;
+}
+
+nav li{
+    list-style: none;
+ margin-right: 51px;
+}
+
+nav a{
+text-decoration: none;
+color: #474747;
+
+}
+
+/* Header related styles. style e bg img add korte - bg-image: url(../assets/images/header_bg.png); */
+header{
+background-color: white;
+background-image: url(../assets/images/header_bg.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+
+}
+
+/* for banner styles. picture er jonno. top-right-bottom-left */
+
+.banner{
+padding: 30px 30px 0px 150px ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.banner-welcome{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+.banner .profile{
+width: 500px;
+}
+
+.banner-p{
+margin-bottom: 30px;
+max-width: 500px;
+
+}
